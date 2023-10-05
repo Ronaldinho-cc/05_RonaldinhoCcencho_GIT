@@ -9,7 +9,7 @@ package S06_05;
  *
  * @author GIGABYTE
  */
-public class Main {
+public class Main_S06_05 {
 
     /**
      * @param args the command line arguments
