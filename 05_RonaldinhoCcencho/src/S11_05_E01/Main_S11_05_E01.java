@@ -12,8 +12,13 @@ package S11_05_E01;
 public class Main_S11_05_E01 {
        
     public static void main(String[] args){
-       Hija1_05_E01 obj1 = new Hija1_05_E01(1, 150, "dorado", "marcela",12);
-       Hija2_05_E01 obj2 = new Hija2_05_E01(2, 20, "jose", "mariela",20);
-       Hija3_05_E01 obj3 = new Hija3_05_E01(99502154, "cortas", 50, "carmen", 35);
+       bombero_05_E01 obj1 = new bombero_05_E01(1, 150, "corto", "marcela",12);
+       obj1.caminar();
+       
+       medico_05_E01 obj2 = new medico_05_E01(2, 20, "jose", "mariela",20);
+       obj1.caminar();
+       
+       policia_05_E01 obj3 = new policia_05_E01(99502154, "cortas", 50, "carmen", 35);
+       obj1.caminar();
     }
 }

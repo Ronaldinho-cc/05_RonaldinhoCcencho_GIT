@@ -22,7 +22,7 @@ public class Persona_05_E01 {
     
     //metodos
     public void caminar(){
-    
+        
     }
     public void hablar(){
     
