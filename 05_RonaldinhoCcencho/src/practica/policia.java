@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package S11_05_E01;
+package practica;
 
 /**
  *
  * @author GIGABYTE
  */
-public class policia_05_E01 extends Persona_05_E01 {
+public class policia extends Persona {
 
-    public policia_05_E01(int celular, String ropa, int peso, String nombre, int edad) {
+    public policia(int celular, String ropa, int peso, String nombre, int edad) {
         super(nombre, edad);
         this.celular = celular;
         this.ropa = ropa;

@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package S11_05_E01;
+package practica;
 
 
 /**
  *
  * @author GIGABYTE
  */
-public class medico_05_E01 extends Persona_05_E01{
+public class medico extends Persona{
 
-    public medico_05_E01(int numero, int nacimiento, String padre, String nombre, int edad) {
+    public medico(int numero, int nacimiento, String padre, String nombre, int edad) {
         super(nombre, edad);
         this.numero = numero;
         this.nacimiento = nacimiento;
@@ -25,8 +25,8 @@ public class medico_05_E01 extends Persona_05_E01{
     String ocupacion;
     
     //metodos
-    public void profesion(){
-    
+    public void profesion(int año){
+        System.out.println("el año es " + año);
     }
     
     public void ocupacion(){

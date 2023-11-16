@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package S11_05_E01;
+package practica;
 
 /**
  *
  * @author GIGABYTE
  */
-public class Persona_05_E01 {
+public class Persona {
 
-    public Persona_05_E01(String nombre, int edad) {
+    public Persona(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
@@ -27,7 +27,6 @@ public class Persona_05_E01 {
     public void hablar(){
     
     }
-
     public String getNombre() {
         return nombre;
     }
