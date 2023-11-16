@@ -11,16 +11,22 @@ package S11_05;
  */
 public class Estudiante_05 extends Persona_05{
 
-    public Estudiante_05(String carrera, int numeroDeOrden, int ciclo, String nombre, int edad) {
+    public Estudiante_05(String nombre, int edad) {
         super(nombre, edad);
-        this.carrera = carrera;
-        this.numeroDeOrden = numeroDeOrden;
-        this.ciclo = ciclo;
     }
+    //Atributos 
+    String correo;
+    int grado;
+    String ComidaFavorita;
     
-    
-    //atributos 
-    String carrera ;
-    int numeroDeOrden;
-    int ciclo;
+    //metodos 
+    public void comidaFavorita(){
+        System.out.println("Mi comida favorita es el arroz con pollo");
+    }
+    public void correo(){
+        System.out.println("Mi correo es ejemplo.hackerxd@gmail.com");
+    }
+    public void grado(){
+        System.out.println("Estoy en el 6 grado de primaria ");
+    }
 }

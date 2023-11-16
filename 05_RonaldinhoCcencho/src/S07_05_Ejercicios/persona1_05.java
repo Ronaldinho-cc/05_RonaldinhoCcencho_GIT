@@ -4,18 +4,18 @@
  */
 package S07_05_Ejercicios;
 
-/**
- *
- * @author GIGABYTE
- */
+/* @author RonaldinhoCcencho_05*/
 public class persona1_05 {
+    
     //metodos 
     public void Hablar(String nombre){
         System.out.println("Estoy hablando , guarda silencio " + nombre);
     }
+    
     public void caminar(String Vecino){
         System.out.println("Estoy caminando no puedo hablar " + Vecino);
     }
+    
     public void edad (int edad){
         System.out.println("Tengo " + edad + " años ");
     }

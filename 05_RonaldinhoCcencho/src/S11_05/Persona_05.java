@@ -21,17 +21,6 @@ public class Persona_05 {
     private String nombre;
     private int edad ;
     
-    //metodos
-    
-    public void hablar(){
-    
-    }
-    public void caminar(){
-    
-    }
-    public void escuchar(){
-    
-    }
     //get and set
 
     public String getNombre() {
@@ -49,5 +38,13 @@ public class Persona_05 {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+       //metodos
     
+    public void hablar(){
+        System.out.println("Estoy hablando");
+    }
+    public void caminar(){
+        System.out.println("Estoy caminando");
+    }
+  
 }

@@ -4,10 +4,8 @@
  */
 package S07_05_Ejercicios;
 
-/**
- *
- * @author GIGABYTE
- */
+/* @author RonaldinhoCcencho_05*/
+
 public class persona2_05 {
     //Metodos con valores de retorno 
     public String Saludo(){

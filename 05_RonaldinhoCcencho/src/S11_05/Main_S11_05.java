@@ -14,13 +14,8 @@ public class Main_S11_05 {
     
     public static void main(String[] args){
     
-        
-        Estudiante_05 objEstudiante = new Estudiante_05("Sistemas", 1, 2, "Jose", 22);
-        objEstudiante.caminar();
-        objEstudiante.escuchar();
-        objEstudiante.hablar();
-        objEstudiante.getNombre();
-        objEstudiante.getEdad();
-        
+        Estudiante_05 estudiante = new Estudiante_05("Carlos", 12);
+        estudiante.comidaFavorita();
+        estudiante.correo();
     }
 }
