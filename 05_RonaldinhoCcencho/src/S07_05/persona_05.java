@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package S07_05;
 
-/**
- *
- * @author GIGABYTE
- */
+/* @author RonaldinhoCcencho_05 */
+
 public class persona_05 {
     // Atributos de la clase Persona
     private String nombre;
@@ -21,27 +15,12 @@ public class persona_05 {
         this.edad = 0;
         this.altura = 0.0;
     }
-
     // Constructor con parámetros
     public persona_05(String nombre, int edad, double altura) {
         this.nombre = nombre;
         this.edad = edad;
         this.altura = altura;
     }
-
-    // Métodos de la clase Persona
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    public void setAltura(double altura) {
-        this.altura = altura;
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -53,7 +32,14 @@ public class persona_05 {
     public double getAltura() {
         return altura;
     }
-
+    //metodos 
+        
+    public void Caminar(){
+        System.out.println("He caminado");
+    }
+    public void Mirar(){
+        System.out.println("He visto el cielo");
+    }
     // Sobrecarga de métodos
     public void saludar() {
         System.out.println("¡Hola! Soy " + nombre);
