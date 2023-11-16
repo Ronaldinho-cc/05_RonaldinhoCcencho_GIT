@@ -17,12 +17,12 @@ public class Main_05 {
     public static void main(String[] args) {
 
         //Clase estudiantes objetos 
-        Estudiante_05 per1 = new Estudiante_05("Juan" , 18, "Matematicas");
+        Estudiante_05 per1 = new Estudiante_05("Juan" , 18, "Matematicas");/*Sobrecargar de constructor clase estudiante_05*/
         System.out.println(per1.obtenerInformacion());
 
    
         //Clase calculadora objeto 
-        Calculadora_05 num = new Calculadora_05(15, 15);
+        Calculadora_05 num = new Calculadora_05(15, 15); /*sobrecarga de constructor clase calculadora_05*/
         num.sumar();
         num.resta();
         num.multiplicar();
